@@ -1,0 +1,85 @@
+* {
+  font-family: 'Zilla Slab', serif;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  background-repeat: no repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to right, lightblue, white);
+}
+.head {
+  position: relative;
+}
+.headimg {
+  width: 25%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headinfo {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(100, 110, 255, 0.75);
+  color: black;
+}
+.head:hover .headinfo{
+  visibility: visible;
+  opacity: 1;
+}
+.body {
+  position: relative;
+}
+.bodyimg {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bodyinfo {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(110, 110, 255, 0.75);
+  color: black;
+}
+.body:hover .bodyinfo{
+  visibility: visible;
+  opacity: 1;
+}
+.leg {
+  position: relative;
+}
+.legimg {
+  width: 25%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leginfo {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(120, 120, 255, 0.75);
+  color: black;
+}
+.leg:hover .leginfo{
+  visibility: visible;
+  opacity: 1;
+}
+p {
+  font-size: 150%;
+}
