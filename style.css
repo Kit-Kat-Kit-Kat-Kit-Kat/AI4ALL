@@ -2,6 +2,7 @@
   font-family: 'Zilla Slab', serif;
   padding: 10px;
   text-align: center;
+  font-size: 300%;
 }
 body {
   background-repeat: no repeat;
@@ -79,7 +80,4 @@ body {
 .leg:hover .leginfo{
   visibility: visible;
   opacity: 1;
-}
-p {
-  font-size: 150%;
 }
